@@ -1,0 +1,21 @@
+{
+  "name": "v-resize-lxy",
+  "version": "1.0.0",
+  "description": "通过自定义指令和自定义hook实现监听元素宽高的变化",
+  "umd文件说明": "umd规范的代码入口(umd),当使用<script>标签引入或使用require时会找umd中的文件,umd支持amd、cmd、cjs、全局变量",
+  "main": "dist/v-resize-lxy.umd.js",
+  "module属性说明": "ES module规范的代码入口(mjs),当使用import、export时会找module中的文件",
+  "module": "dist/v-resize-lxy.mjs",
+  "files属性说明": "files字段指定了哪些文件会被打包到最终的npm包中,默认情况下是根目录下的所有文件",
+  "files": ["dist", "index.d.ts"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.0.10",
+    "vue": "^3.3.13"
+  }
+}
